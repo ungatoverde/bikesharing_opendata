@@ -68,7 +68,7 @@ server <- function(input, output, session) {
                          choices = provinces_filtered)
   })
   
-  # cities
+  # cities filter
   observe({
     
     cities_filtered <- 
