@@ -50,7 +50,7 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
   
-  # Conditional drop down
+  # Conditional drop down filter
   # provinces filter
   observe({
     
