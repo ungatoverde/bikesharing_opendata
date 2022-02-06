@@ -51,7 +51,7 @@ ui <- fluidPage(
 server <- function(input, output, session) {
   
   # Conditional drop down
-  
+  # provinces
   observe({
     
     provinces_filtered <- 
@@ -68,7 +68,7 @@ server <- function(input, output, session) {
                          choices = provinces_filtered)
   })
   
-  
+  # cities
   observe({
     
     cities_filtered <- 
