@@ -1,0 +1,4 @@
+Definition: Province related to communities (comunidades autónomas) 
+Source: INE (Instituto Nacional de Estadística)
+URL: https://www.ine.es/daco/daco42/codmun/cod_ccaa_provincia.htm
+Data preparation: No
