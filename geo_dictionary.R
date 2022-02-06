@@ -11,7 +11,7 @@ provinces_cities <-
   dplyr::select(1:4)%>%
   setNames(., c("province_number", "province_name", "city_number", "city_name"))
 
-# Regions (e.g. comunidades autónomas)
+# Regions (e.g. comunidades autónomas, i.e. some kind of regions)
 regions <-
   read.csv(file = "background_data/communities.csv",
            fileEncoding = "UTF-8",
