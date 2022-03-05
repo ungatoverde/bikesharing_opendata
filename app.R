@@ -10,9 +10,9 @@ geo_dictionary <-
   read.csv("background_data/own_output/geo_dictionary.csv")
 
 
-#TODO: Add conditional list
+#TODO: Add conditional list 
 
-# Define UI
+# Define UI.
 ui <- fluidPage(
   # App title
   titlePanel("Bike-sharing Open Data"),
