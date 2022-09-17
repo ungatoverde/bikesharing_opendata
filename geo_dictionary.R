@@ -26,7 +26,8 @@ geo_dictionary <-
 
 # Export geo_dictionary
 write.csv(geo_dictionary, 
-          file = "background_data/own_output/geo_dictionary.csv")
+          file = "background_data/own_output/geo_dictionary.csv",
+          fileEncoding = "UTF-8")
 
 
 

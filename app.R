@@ -4,6 +4,7 @@ rm(list=ls())
 # Load packages
 library(shiny)
 library(dplyr)
+library(readr)
 
 # Read geo_dictionary
 geo_dictionary <-
